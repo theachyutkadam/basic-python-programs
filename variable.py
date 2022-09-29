@@ -1,5 +1,7 @@
 x = 5
 y = "John"
+print(len(y))
+
 print(x)
 print(y)
 
