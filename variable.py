@@ -26,6 +26,11 @@ x = 1j
 print(x)
 x = ["apple", "banana", "cherry"]
 print(x)
+x[1] = "orange"
+print(x)
+x.append("banana")
+for i in x:
+  print(i)
 x = ("apple", "banana", "cherry")
 print(x)
 x = range(2,6)
